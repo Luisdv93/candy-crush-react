@@ -7,7 +7,25 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.app {
+  display: flex;
+  flex-direction: column;
+  padding: 32px;
 }
+
+.game {
+  width: 560px;
+  height: 560px;
+  display:flex;
+  flex-wrap: wrap;
+}
+
+.game img  {
+  width: 70px;
+  height: 70px;
+}
+
+.score-board {
+  margin-bottom: 8px;
+}
+
